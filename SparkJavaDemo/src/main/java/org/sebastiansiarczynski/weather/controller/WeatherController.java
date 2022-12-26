@@ -12,6 +12,8 @@ public class WeatherController {
   }
 
   public void init() {
-    get("/weather/get/country/:country", (req, res) -> );
+    get("/country/:country", (req, res) -> {
+      return res;
+    });
   }
 }
